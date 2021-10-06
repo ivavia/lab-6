@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Форма</title>
+</head>
+<body>
+    <h1 align="center">Выберите страну для путешествий</h1>
+  
+   <div class="forma">
+    <form action="action_form.php" method="POST">
+        <div class="part1">Обращение: <p><input type="radio" name="browser" value="IE" checked="checked" /> Г-н</p> 
+        <p><input type="radio" name="browser" value="IE" checked="checked" /> Г-жа</p></div>
+        
+        Имя: <input type="text" name="lastname" value=""><br>
+        Фамилия: <input type="text" name="lastname" value=""><br>
+        Email: <input type="text" name="lastname" value=""><br>
+        Телефон: <input type="text" name="lastname" value=""><br>
+        Пароль: <input type="text" name="lastname" value=""><br>
+        Подтвердите пароль: <input type="text" name="lastname" value=""><br>
+        Страна: <select>
+            <option>Канада</option>
+            <option>Болгария</option>
+            <option>Греция</option>
+            <option>Испания</option>
+            <option>Грузия</option>
+        </select>
+        
+        <p><input type="checkbox" name="a" value="Я"> Я согласен с условиями использования</p>
+        <p>Ваш комментарий:</p> <textarea required rows="7" cols="65"></textarea>
+        <input type="submit" value= "Зарегистрироваться">
+    </form>
+    </div>
+</body>
+</html>
